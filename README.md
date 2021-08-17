@@ -2,6 +2,8 @@
 
 Dank Tables is a javascript library for printing tables with coloured titles
 
+![Screenshot](example.jpg)
+
 ## Usage
 
 ```javascript

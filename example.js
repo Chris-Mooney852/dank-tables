@@ -1,3 +1,3 @@
 const dankTable = require('./');
 
-dankTable('Test Title', ['test', 'test2'], 'yellow3');
+dankTable('Spicy Title', [{name: 'Big Doinks'}, {name: 'In Amish'}], 'cyan');
