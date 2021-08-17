@@ -8,5 +8,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Chris-Mooney852/dank-tables"
-  }
+  },
+  "keywords": [
+    "table",
+    "log",
+    "logging",
+    "title",
+    "color",
+    "dank"
+  ]
 }
