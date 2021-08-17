@@ -1,6 +1,6 @@
 {
   "name": "dank-tables",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple library for creating tables with colored titles",
   "main": "index.js",
   "author": "fuelwaster",
