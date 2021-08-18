@@ -13,11 +13,25 @@ const colours = {
     }
 };
 
-module.exports = function dankTable(title, data, bgColour = colours.bg.cyan) {
+function dankTable(title, data, bgColour = colours.bg.cyan) {
     if(!bgColour.startsWith('\u001b')) {
-        bgColour = colours.bg[bgColour] || colours.bg.cyan;
+        bgColour = colours.bg[bgColour].toLowerCase() || colours.bg.cyan;
     }
 
     console.log(`${bgColour}${title}${colours.reset}`);
     console.table(data);
+}
+
+function dankLog(title, data, bgColour = colours.bg.cyan) {
+    if(!bgColour.startsWith('\u001b')) {
+        bgColour = colours.bg[bgColour].toLowerCase() || colours.bg.cyan;
+    }
+
+    console.log(`${bgColour}${title}${colours.reset}`);
+    console.log(data);
+}
+
+module.exports = {
+    dankTable,
+    dankLog
 }
