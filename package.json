@@ -1,13 +1,13 @@
 {
-  "name": "dank-tables",
-  "version": "1.0.5",
-  "description": "Simple library for creating tables with colored titles",
+  "name": "danker-logs",
+  "version": "2.0.1",
+  "description": "Simple library for creating logs with coloured titles",
   "main": "index.js",
   "author": "fuelwaster",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chris-Mooney852/dank-tables"
+    "url": "https://github.com/Chris-Mooney852/danker-logs"
   },
   "keywords": [
     "table",

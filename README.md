@@ -1,20 +1,20 @@
-# Dank Tables
+# Danker Logs
 
-Dank Tables is a javascript library for printing tables with coloured titles
+Danker logs is a javascript library for printing logs with coloured titles
 
-![Screenshot](example.jpg)
+![Screenshot](media/example.jpg)
 
 ## Usage
 
 ```javascript
-const dankTable = require('dank-tables')
+const dankLogs = require('./');
 
-dankTable('Spicy Title', data, 'blue')
+dankLogs.dankTable('Spicy Title', [{name: 'Big Doinks'}, {name: 'In Amish'}], 'cyan');
+
+dankLogs.dankLog('Spicy Title 2', 'Big Doinks in Amish', 'cyan');
 ```
 
 ## Valid Colours
-
-**All colors currently need to be in lowercase because I'm too lazy to check for case sensitivity**
 
 - black
 - red
@@ -28,6 +28,10 @@ dankTable('Spicy Title', data, 'blue')
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## FAQ
+- **Why "Danker Logs"**
+    - Because "Dank Logs" was taken
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
