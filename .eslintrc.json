@@ -1,0 +1,41 @@
+{
+	"extends": "airbnb-base",
+	"parserOptions": {
+        "ecmaVersion": 2020
+    },
+	// override airbnb rules here
+	"rules": {
+		"indent": ["warn", "tab", {"SwitchCase": 1}],
+		"no-tabs": 0,
+		"linebreak-style": 0,
+		"no-console": 0,
+		"comma-dangle": 0,
+		"consistent-return": 0,
+		"no-underscore-dangle": 0,
+		"eol-last": 0,
+		"padding-line-between-statements": [1, 
+			{ "blankLine": "always", "prev": "*", "next": "return" },
+			{ "blankLine": "always", "prev": "block-like", "next": "*" },
+			{ "blankLine": "always", "prev": "*", "next": "block-like" }
+		],
+		"no-plusplus": 0,
+		"no-cond-assign": ["error"],
+		"max-len": [2, {
+			"code": 200,
+			"ignoreComments": true
+		}],
+		"prefer-destructuring": [2, {
+			"object": true,
+			"array": false
+		}],
+		"no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
+		"no-param-reassign": 0,
+		"nonblock-statement-body-position": ["error", "beside"],
+		"no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 0 }],
+		"curly": ["warn"],
+		"no-unsafe-optional-chaining": ["error", { "disallowArithmeticOperators": true }]
+	},
+	"env": {
+		"node": true
+	}
+}
