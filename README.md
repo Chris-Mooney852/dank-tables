@@ -2,16 +2,16 @@
 
 Danker logs is a javascript library for printing logs with coloured titles
 
-![Screenshot](media/example.jpg)
+![Screenshot](media/example.png)
 
 ## Usage
 
 ```javascript
-const dankLogs = require('./');
+const { dankTable, dankLog } = require('.');
 
-dankLogs.dankTable('Spicy Title', [{name: 'Big Doinks'}, {name: 'In Amish'}], 'cyan');
+dankTable('Spicy Title', [{ name: 'Big Doinks' }, { name: 'In Amish' }], 'cyan');
 
-dankLogs.dankLog('Spicy Title 2', 'Big Doinks in Amish', 'cyan');
+dankLog('Spicy Title 2', 'Big Doinks in Amish', 'cyan');
 ```
 
 ## Valid Colours
@@ -32,6 +32,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## FAQ
 - **Why "Danker Logs"**
     - Because "Dank Logs" was taken
+- **Why would I even use danker logs**
+    - ![Screenshot](media/pooh.jpg)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
